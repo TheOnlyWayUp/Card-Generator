@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Generator</title>
+
+    <link rel="stylesheet" href="https://megarion.github.io/css/boostrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 4:6 ratio canvas -->
+    <!-- 6 x 9 -->
+    <!-- Tile size: 35 -->
+    <div id="content">
+        <span>
+            <canvas id="card" width="210" height="315"></canvas> <br>
+            <select class="form-select" id="color">
+                <option value="0">Color: White</option>
+                <option value="1" selected>Color: Black</option>
+                <option value="2">Color: Red</option>
+                <option value="3">Color: Orange</option>
+                <option value="4">Color: Yellow</option>
+                <option value="5">Color: Emerald</option>
+                <option value="6">Color: Green</option>
+                <option value="7">Color: Turquoise</option>
+                <option value="8">Color: Cyan</option>
+                <option value="9">Color: Azure</option>
+                <option value="10">Color: Blue</option>
+                <option value="11">Color: Violet</option>
+                <option value="12">Color: Magenta</option>
+                <option value="13">Color: Pink</option>
+            </select>
+            <button type="button" class="btn btn-success" id="gen">Share!</button>
+            
+        </span>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
