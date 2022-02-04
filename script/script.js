@@ -11,7 +11,7 @@ let linkData = urlParams.get('data');
 if (linkData == null) {
     linkData = '0;0;0;0;0;0-0;0;0;0;0;0-0;0;0;0;0;0-0;0;0;0;0;0-0;0;0;0;0;0-0;0;0;0;0;0-0;0;0;0;0;0-0;0;0;0;0;0-0;0;0;0;0;0';
 } else {
-    alert("Link already generated. Copy the link to share!");
+    alert("Link generated. Copy the link to share!");
 }
 
 const rect = card.getBoundingClientRect();
